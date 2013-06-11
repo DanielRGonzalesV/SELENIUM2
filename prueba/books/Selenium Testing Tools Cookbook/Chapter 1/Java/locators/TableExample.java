@@ -1,10 +1,13 @@
 package locators;
 
+import java.util.Arrays;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver; 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.WebElement;
 
 import org.junit.After;
@@ -18,7 +21,13 @@ public class TableExample {
 	
 	@Before
 	public void setUp() {
-		driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "c:\\descargas\\chromedriver.exe");
+		/*
+		 DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+		  capabilities.setCapability("chrome.switches", Arrays.asList("--proxy-server=http://rproxy2.caib.es:3128"));
+		*/
+		driver = new FirefoxDriver();
+		
 		driver.get("http://dl.dropbox.com/u/55228056/Locators.html");
 	}
 	
