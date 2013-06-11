@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1006]C:\Users\Admin\Documents\Visual Studio 2012\Projects\LocatorExamples\LocatorExamples\bin\Debug\LocatorExamples.dll</TopNode>
+  <SelectedNode>[0-1001]LocatorExamples.JQuerySelectorTests.TestDefaultSelectedCheckbox</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1006]C:\Users\Admin\Documents\Visual Studio 2012\Projects\LocatorExamples\LocatorExamples\bin\Debug\LocatorExamples.dll" Expanded="true" />
+    <Node UniqueName="[0-1007]LocatorExamples" Expanded="true" />
+    <Node UniqueName="[0-1000]LocatorExamples.JQuerySelectorTests" Expanded="true" />
+    <Node UniqueName="[0-1001]LocatorExamples.JQuerySelectorTests.TestDefaultSelectedCheckbox" Expanded="true" />
+    <Node UniqueName="[0-1003]LocatorExamples.TableTests" Expanded="true" />
+    <Node UniqueName="[0-1004]LocatorExamples.TableTests.TestWebTable" Expanded="true" />
+  </Nodes>
+</VisualState>

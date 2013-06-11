@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="70.263" errors="1" skipped="0" tests="18" name="fundtransfer.test.RunCukesTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_30\jre\bin"/>
+    <property name="java.vm.version" value="20.5-b03"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\workspace\FundTransfer"/>
+    <property name="java.runtime.version" value="1.6.0_30-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\apache-maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_30\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Ruby193\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\QuickTime\QTSystem\;C:\Python26;C:\Python26\Scripts;C:\ChromeDriver;C:\Program Files\TechTalk\SpecFlow;C:\Program Files\NUnit 2.6\bin;C:\Program Files\Git\cmd;C:\apache-maven\bin;C:\Program Files\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Windows Live\Shared;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\WinAnt\bin;C:\Program Files\Sikuli X\libs;C:\Program Files\Java\jre6\\bin;C:\Program Files\WinAnt\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="C:\apache-maven\bin\..\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_30\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_30"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_30\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="C:\apache-maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.001" classname="Given the user is on Fund Transfer Page   " name="Given the user is on Fund Transfer Page   "/>
+  <testcase time="0" classname="When he enters \&quot;Jim\&quot; as payee name    " name="When he enters \&quot;Jim\&quot; as payee name    "/>
+  <testcase time="0" classname="And he enters \&quot;100\&quot; as amount     " name="And he enters \&quot;100\&quot; as amount     "/>
+  <testcase time="0" classname="And he Submits request for Fund Transfer      " name="And he Submits request for Fund Transfer      "/>
+  <testcase time="0" classname="Then ensure the fund transfer is complete with \&quot;$100 transferred successfully to Jim!!\&quot; message       " name="Then ensure the fund transfer is complete with \&quot;$100 transferred successfully to Jim!!\&quot; message       "/>
+  <testcase time="3.908" classname="Scenario: Valid Payee  " name="Scenario: Valid Payee  "/>
+  <testcase time="0" classname="Given the user is on Fund Transfer Page         " name="Given the user is on Fund Transfer Page         "/>
+  <testcase time="0" classname="When he enters \&quot;Unmesh\&quot; as payee name          " name="When he enters \&quot;Unmesh\&quot; as payee name          "/>
+  <testcase time="0" classname="And he enters \&quot;100\&quot; as amount           " name="And he enters \&quot;100\&quot; as amount           "/>
+  <testcase time="0" classname="And he Submits request for Fund Transfer            " name="And he Submits request for Fund Transfer            "/>
+  <testcase time="0" classname="Then ensure a transaction failure message \&quot;Transfer failed!! \&apos;Unmesh\&apos; is not registered in your List of Payees\&quot; is displayed             " name="Then ensure a transaction failure message \&quot;Transfer failed!! \&apos;Unmesh\&apos; is not registered in your List of Payees\&quot; is displayed             "/>
+  <testcase time="2.199" classname="Scenario: Invalid Payee        " name="Scenario: Invalid Payee        "/>
+  <testcase time="0" classname="Given the user is on Fund Transfer Page               " name="Given the user is on Fund Transfer Page               "/>
+  <testcase time="0" classname="When he enters \&quot;Tim\&quot; as payee name                " name="When he enters \&quot;Tim\&quot; as payee name                "/>
+  <testcase time="0" classname="And he enters \&quot;1000000\&quot; as amount                 " name="And he enters \&quot;1000000\&quot; as amount                 "/>
+  <testcase time="0" classname="And he Submits request for Fund Transfer                  " name="And he Submits request for Fund Transfer                  "/>
+  <testcase time="0" classname="Then ensure a transaction failure message \&quot;Transfer failed!! account cannot be overdrawn\&quot; is displayed                   " name="Then ensure a transaction failure message \&quot;Transfer failed!! account cannot be overdrawn\&quot; is displayed                   "/>
+  <testcase time="26.274" classname="Scenario: Account is overdrawn past the overdraft limit              " name="Scenario: Account is overdrawn past the overdraft limit              ">
+    <error message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_30&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_30&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:493)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:502)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:367)
+	at fundtransfer.test.FundTransferStepDefs.tearDown(FundTransferStepDefs.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:12)
+	at cucumber.runtime.Utils.invoke(Utils.java:36)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:192)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:184)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:179)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:38)
+	at cucumber.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:76)
+	at cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:65)
+	at cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:20)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at cucumber.junit.FeatureRunner.run(FeatureRunner.java:72)
+	at cucumber.junit.Cucumber.runChild(Cucumber.java:76)
+	at cucumber.junit.Cucumber.runChild(Cucumber.java:36)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+	at cucumber.junit.Cucumber.run(Cucumber.java:81)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:42406 refused
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.6.0_30&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:75)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	... 46 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connection to http://localhost:42406 refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:149)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:634)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:464)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:820)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:319)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:297)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:66)
+	... 47 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:351)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:213)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:200)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:529)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:123)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:148)
+	... 55 more
+</error>
+    <system-out>&amp;#27;[1A    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mensure a transaction failure message &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mTransfer failed!! account cannot be overdrawn&amp;#27;[0m&amp;#27;[32m&quot; is displayed&amp;#27;[0m &amp;#27;[90m# FundTransferStepDefs.Ensure_a_transaction_failure_message(String)&amp;#27;[0m
+</system-out>
+    <system-err>[0923/213805:FATAL:webdriver_automation.cc(266)] Check failed: version_parts.size() == 4 &amp;&amp; base::StringToInt(version_parts[2], &amp;build_no). Can&apos;t rewrite message (type: 959) because unknown server (version: ***CHANNEL_ERROR***)
+23 Sep, 2012 9:38:29 PM org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: I/O exception (java.net.SocketException) caught when processing request: Connection reset
+23 Sep, 2012 9:38:29 PM org.apache.http.impl.client.DefaultRequestDirector tryExecute
+INFO: Retrying request
+</system-err>
+  </testcase>
+</testsuite>

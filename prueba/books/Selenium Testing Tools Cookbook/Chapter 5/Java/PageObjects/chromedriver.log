@@ -1,0 +1,236 @@
+[0.001][INFO]:      ChromeDriver 23.0.1240.0 C:\ChromeDriver\chromedriver.exe
+[1.108][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.108][INFO]:      Launching chrome: "C:\Users\Admin\AppData\Local\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[2.743][INFO]:      Connected to Chrome successfully. Version: 22.0.1229.94
+[2.772][FINE]:      Command received (/session/522fc7e43cc845349932d8c1acfbdb47)
+[2.772][FINE]:      Command finished (/session/522fc7e43cc845349932d8c1acfbdb47) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "22.0.1229.94",
+      "webStorageEnabled": true
+   }
+}
+
+[2.827][FINE]:      Command received (/session/522fc7e43cc845349932d8c1acfbdb47/title)
+[2.827][FINER]:     Waiting for all views to stop loading...
+[2.828][FINER]:     Done waiting for all views to stop loading
+[2.837][FINER]:     Waiting for all views to stop loading...
+[2.837][FINER]:     Done waiting for all views to stop loading
+[2.837][FINE]:      Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/title) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": "about:blank"
+}
+
+[2.852][FINE]:      Command received (/session/522fc7e43cc845349932d8c1acfbdb47/url) with params {
+   "url": "http://dl.dropbox.com/u/55228056/bmicalculator.html"
+}
+
+[2.852][FINER]:     Waiting for all views to stop loading...
+[2.857][FINER]:     Done waiting for all views to stop loading
+[12.386][FINER]:    Waiting for all views to stop loading...
+[13.687][FINER]:    Done waiting for all views to stop loading
+[13.687][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/url) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13.704][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/title)
+[13.704][FINER]:    Waiting for all views to stop loading...
+[13.704][FINER]:    Done waiting for all views to stop loading
+[13.708][FINER]:    Waiting for all views to stop loading...
+[13.708][FINER]:    Done waiting for all views to stop loading
+[13.708][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/title) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": "BMI Calculator"
+}
+
+[13.726][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element) with params {
+   "using": "id",
+   "value": "heightCMS"
+}
+
+[13.726][FINER]:    Waiting for all views to stop loading...
+[13.727][FINER]:    Done waiting for all views to stop loading
+[13.752][FINER]:    Waiting for all views to stop loading...
+[13.752][FINER]:    Done waiting for all views to stop loading
+[13.753][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350213554620"
+   }
+}
+
+[13.775][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554620/value) with params {
+   "id": ":wdc:1350213554620",
+   "value": [ "181" ]
+}
+
+[13.776][FINER]:    Waiting for all views to stop loading...
+[13.779][FINER]:    Done waiting for all views to stop loading
+[13.960][FINER]:    Waiting for all views to stop loading...
+[13.960][FINER]:    Done waiting for all views to stop loading
+[13.960][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554620/value) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[13.974][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element) with params {
+   "using": "id",
+   "value": "weightKg"
+}
+
+[13.974][FINER]:    Waiting for all views to stop loading...
+[13.975][FINER]:    Done waiting for all views to stop loading
+[14.007][FINER]:    Waiting for all views to stop loading...
+[14.008][FINER]:    Done waiting for all views to stop loading
+[14.008][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350213554621"
+   }
+}
+
+[14.020][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554621/value) with params {
+   "id": ":wdc:1350213554621",
+   "value": [ "80" ]
+}
+
+[14.020][FINER]:    Waiting for all views to stop loading...
+[14.020][FINER]:    Done waiting for all views to stop loading
+[14.164][FINER]:    Waiting for all views to stop loading...
+[14.164][FINER]:    Done waiting for all views to stop loading
+[14.164][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554621/value) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[14.180][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element) with params {
+   "using": "id",
+   "value": "Calculate"
+}
+
+[14.180][FINER]:    Waiting for all views to stop loading...
+[14.180][FINER]:    Done waiting for all views to stop loading
+[14.206][FINER]:    Waiting for all views to stop loading...
+[14.207][FINER]:    Done waiting for all views to stop loading
+[14.207][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350213554622"
+   }
+}
+
+[14.221][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554622/click) with params {
+   "id": ":wdc:1350213554622"
+}
+
+[14.221][FINER]:    Waiting for all views to stop loading...
+[14.222][FINER]:    Done waiting for all views to stop loading
+[14.282][FINER]:    Waiting for all views to stop loading...
+[14.282][FINER]:    Done waiting for all views to stop loading
+[14.282][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554622/click) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[14.296][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element) with params {
+   "using": "id",
+   "value": "bmi"
+}
+
+[14.296][FINER]:    Waiting for all views to stop loading...
+[14.297][FINER]:    Done waiting for all views to stop loading
+[14.323][FINER]:    Waiting for all views to stop loading...
+[14.323][FINER]:    Done waiting for all views to stop loading
+[14.323][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350213554623"
+   }
+}
+
+[14.333][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554623/attribute/value)
+[14.333][FINER]:    Waiting for all views to stop loading...
+[14.333][FINER]:    Done waiting for all views to stop loading
+[14.377][FINER]:    Waiting for all views to stop loading...
+[14.377][FINER]:    Done waiting for all views to stop loading
+[14.377][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554623/attribute/value) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": "24.4"
+}
+
+[14.387][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element) with params {
+   "using": "id",
+   "value": "bmi_category"
+}
+
+[14.387][FINER]:    Waiting for all views to stop loading...
+[14.387][FINER]:    Done waiting for all views to stop loading
+[14.411][FINER]:    Waiting for all views to stop loading...
+[14.412][FINER]:    Done waiting for all views to stop loading
+[14.412][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350213554624"
+   }
+}
+
+[14.422][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554624/attribute/value)
+[14.422][FINER]:    Waiting for all views to stop loading...
+[14.425][FINER]:    Done waiting for all views to stop loading
+[14.473][FINER]:    Waiting for all views to stop loading...
+[14.475][FINER]:    Done waiting for all views to stop loading
+[14.475][FINE]:     Command finished (/session/522fc7e43cc845349932d8c1acfbdb47/element/:wdc:1350213554624/attribute/value) with response {
+   "sessionId": "522fc7e43cc845349932d8c1acfbdb47",
+   "status": 0,
+   "value": "Normal"
+}
+
+[14.486][FINE]:     Command received (/session/522fc7e43cc845349932d8c1acfbdb47/window)
+[21.765][INFO]:     Chrome shutdown

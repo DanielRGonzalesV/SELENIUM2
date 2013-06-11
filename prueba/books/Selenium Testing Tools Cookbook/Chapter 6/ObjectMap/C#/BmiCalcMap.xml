@@ -1,0 +1,7 @@
+<elements>
+	<element name="HeightField" locator_type="name" locator_value="heightCMS"/>
+	<element name="WeightField" locator_type="id" locator_value="weightKg"/>
+	<element name="CalculateButton" locator_type="xpath" locator_value="//input[@value='Calculate']"/>
+	<element name="BmiField" locator_type="id" locator_value="bmi"/>
+	<element name="BmiCategoryField" locator_type="css" locator_value="#bmi_category"/>
+</elements>

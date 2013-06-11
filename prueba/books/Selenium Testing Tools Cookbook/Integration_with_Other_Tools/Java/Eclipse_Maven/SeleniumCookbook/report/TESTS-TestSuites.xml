@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Admin-PC" id="0" name="GoogleSearchTest" package="seleniumcookbook.examples.test" tests="1" time="40.478" timestamp="2012-09-23T08:58:21">
+      <properties>
+          <property name="ant.project.invoked-targets" value="exec" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_30\jre\bin" />
+
+          <property name="java.vm.version" value="20.5-b03" />
+
+          <property name="ant.library.dir" value="C:\Program Files\WinAnt\lib" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+
+          <property name="ant.java.version" value="1.6" />
+
+          <property name="ant.file.test" value="c:\workspace\SeleniumCookbook\build.xml" />
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+
+          <property name="java.vendor.url" value="http://java.sun.com/" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="user.country" value="IN" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="user.dir" value="c:\workspace\SeleniumCookbook" />
+
+          <property name="lib" value="./lib" />
+
+          <property name="java.runtime.version" value="1.6.0_30-b12" />
+
+          <property name="bin" value="./bin" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="basedir" value="c:\workspace\SeleniumCookbook" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\endorsed" />
+
+          <property name="os.arch" value="x86" />
+
+          <property name="ant.project.default-target" value="exec" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\" />
+
+          <property name="ant.core.lib" value="C:\Program Files\WinAnt\lib\ant.jar" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="user.variant" value="" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="ant.home" value="C:\Program Files\WinAnt" />
+
+          <property name="ant.project.name" value="test" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_30\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Ruby193\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\QuickTime\QTSystem\;C:\Python26;C:\Python26\Scripts;C:\ChromeDriver;C:\Program Files\TechTalk\SpecFlow;C:\Program Files\NUnit 2.6\bin;C:\Program Files\Git\cmd;C:\apache-maven\bin;C:\Program Files\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Windows Live\Shared;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Sikuli X\libs;C:\Program Files\Java\jre6\\bin;C:\Program Files\WinAnt\bin;." />
+
+          <property name="src" value="./src" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="50.0" />
+
+          <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+
+          <property name="ant.file.type.test" value="file" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="ant.file" value="c:\workspace\SeleniumCookbook\build.xml" />
+
+          <property name="user.home" value="C:\Users\Admin" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="java.specification.version" value="1.6" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="user.name" value="Admin" />
+
+          <property name="java.class.path" value="C:\Program Files\WinAnt\lib\ant-launcher.jar;c:\workspace\SeleniumCookbook\.\;C:\Program Files\QuickTime\QTSystem\QTJava.zip;C:\Program Files\WinAnt\lib\ant-antlr.jar;C:\Program Files\WinAnt\lib\ant-apache-bcel.jar;C:\Program Files\WinAnt\lib\ant-apache-bsf.jar;C:\Program Files\WinAnt\lib\ant-apache-log4j.jar;C:\Program Files\WinAnt\lib\ant-apache-oro.jar;C:\Program Files\WinAnt\lib\ant-apache-regexp.jar;C:\Program Files\WinAnt\lib\ant-apache-resolver.jar;C:\Program Files\WinAnt\lib\ant-apache-xalan2.jar;C:\Program Files\WinAnt\lib\ant-commons-logging.jar;C:\Program Files\WinAnt\lib\ant-commons-net.jar;C:\Program Files\WinAnt\lib\ant-contrib-1.0b3.jar;C:\Program Files\WinAnt\lib\ant-jai.jar;C:\Program Files\WinAnt\lib\ant-javamail.jar;C:\Program Files\WinAnt\lib\ant-jdepend.jar;C:\Program Files\WinAnt\lib\ant-jmf.jar;C:\Program Files\WinAnt\lib\ant-jsch.jar;C:\Program Files\WinAnt\lib\ant-junit.jar;C:\Program Files\WinAnt\lib\ant-junit4.jar;C:\Program Files\WinAnt\lib\ant-launcher.jar;C:\Program Files\WinAnt\lib\ant-netrexx.jar;C:\Program Files\WinAnt\lib\ant-swing.jar;C:\Program Files\WinAnt\lib\ant-testutil.jar;C:\Program Files\WinAnt\lib\ant.jar;C:\Program Files\Java\jdk1.6.0_30\lib\tools.jar" />
+
+          <property name="java.vm.specification.version" value="1.0" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_30\jre" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp .;C:\Program Files\QuickTime\QTSystem\QTJava.zip;" />
+
+          <property name="sun.arch.data.model" value="32" />
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+
+          <property name="user.language" value="en" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="java.vm.info" value="mixed mode, sharing" />
+
+          <property name="java.version" value="1.6.0_30" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_30\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_30\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_30\jre\classes" />
+
+          <property name="java.vendor" value="Sun Microsystems Inc." />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+
+          <property name="report" value="./report" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+
+      </properties>
+
+      <testcase classname="seleniumcookbook.examples.test.GoogleSearchTest" name="testGoogleSearch" time="39.834" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>

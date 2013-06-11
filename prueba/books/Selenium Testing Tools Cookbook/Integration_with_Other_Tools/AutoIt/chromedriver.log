@@ -1,0 +1,95 @@
+[0.001][INFO]:      ChromeDriver 22.0.1203.0 C:\ChromeDriver\chromedriver.exe
+[0.669][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.detach": true,
+   "chromeOptions": {
+      "detach": true
+   },
+   "cssSelectorsEnabled": true,
+   "javascriptEnabled": true,
+   "nativeEvents": false,
+   "platform": "ANY",
+   "rotatable": false,
+   "takesScreenshot": false,
+   "version": ""
+}
+
+[0.670][INFO]:      Using named testing interface
+[2.322][INFO]:      Connected to Chrome successfully. Version: 22.0.1229.79
+[2.354][FINE]:      Command received (/session/10ffbc0ed5df7321aef297c356c5e684)
+[2.355][FINE]:      Command finished (/session/10ffbc0ed5df7321aef297c356c5e684) with response {
+   "sessionId": "10ffbc0ed5df7321aef297c356c5e684",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "22.0.1203.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "22.0.1229.79",
+      "webStorageEnabled": true
+   }
+}
+
+[2.372][FINE]:      Command received (/session/10ffbc0ed5df7321aef297c356c5e684/url) with params {
+   "url": "http://www.httpwatch.com/httpgallery/authentication"
+}
+
+[2.372][FINER]:     Waiting for all views to stop loading...
+[2.374][FINER]:     Done waiting for all views to stop loading
+[11.098][FINER]:    Waiting for all views to stop loading...
+[11.098][FINER]:    Done waiting for all views to stop loading
+[11.098][FINE]:     Command finished (/session/10ffbc0ed5df7321aef297c356c5e684/url) with response {
+   "sessionId": "10ffbc0ed5df7321aef297c356c5e684",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[11.137][FINE]:     Command received (/session/10ffbc0ed5df7321aef297c356c5e684/element) with params {
+   "using": "id",
+   "value": "displayImage"
+}
+
+[11.137][FINER]:    Waiting for all views to stop loading...
+[11.137][FINER]:    Done waiting for all views to stop loading
+[11.158][FINER]:    Waiting for all views to stop loading...
+[11.158][FINER]:    Done waiting for all views to stop loading
+[11.158][FINE]:     Command finished (/session/10ffbc0ed5df7321aef297c356c5e684/element) with response {
+   "sessionId": "10ffbc0ed5df7321aef297c356c5e684",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1349274621719"
+   }
+}
+
+[11.176][FINE]:     Command received (/session/10ffbc0ed5df7321aef297c356c5e684/element/:wdc:1349274621719/click) with params {
+
+}
+
+[11.176][FINER]:    Waiting for all views to stop loading...
+[11.176][FINER]:    Done waiting for all views to stop loading
+[11.248][FINER]:    Waiting for all views to stop loading...
+[11.248][FINER]:    Done waiting for all views to stop loading
+[11.249][FINE]:     Command finished (/session/10ffbc0ed5df7321aef297c356c5e684/element/:wdc:1349274621719/click) with response {
+   "sessionId": "10ffbc0ed5df7321aef297c356c5e684",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[14.022][FINE]:     Command received (/session/10ffbc0ed5df7321aef297c356c5e684)
+[24.251][INFO]:     Chrome still running after 10s
+[24.251][INFO]:     Chrome shutdown

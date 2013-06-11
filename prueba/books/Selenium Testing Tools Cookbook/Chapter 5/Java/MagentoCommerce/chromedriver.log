@@ -1,0 +1,424 @@
+[0.001][INFO]:      ChromeDriver 23.0.1240.0 C:\ChromeDriver\chromedriver.exe
+[0.987][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.988][INFO]:      Launching chrome: "C:\Users\Admin\AppData\Local\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors about:blank
+[2.022][INFO]:      Connected to Chrome successfully. Version: 22.0.1229.94
+[2.060][FINE]:      Command received (/session/8ab47c115b9458d05d8aaee892639bc5)
+[2.060][FINE]:      Command finished (/session/8ab47c115b9458d05d8aaee892639bc5) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "23.0.1240.0",
+      "chrome.nativeEvents": false,
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "22.0.1229.94",
+      "webStorageEnabled": true
+   }
+}
+
+[2.095][FINE]:      Command received (/session/8ab47c115b9458d05d8aaee892639bc5/title)
+[2.095][FINER]:     Waiting for all views to stop loading...
+[2.096][FINER]:     Done waiting for all views to stop loading
+[2.102][FINER]:     Waiting for all views to stop loading...
+[2.102][FINER]:     Done waiting for all views to stop loading
+[2.102][FINE]:      Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/title) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "about:blank"
+}
+
+[2.115][FINE]:      Command received (/session/8ab47c115b9458d05d8aaee892639bc5/url) with params {
+   "url": "http://demo.magentocommerce.com/"
+}
+
+[2.115][FINER]:     Waiting for all views to stop loading...
+[2.115][FINER]:     Done waiting for all views to stop loading
+[23.633][FINER]:    Waiting for all views to stop loading...
+[23.634][FINER]:    Done waiting for all views to stop loading
+[23.635][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/url) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[23.664][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/title)
+[23.664][FINER]:    Waiting for all views to stop loading...
+[23.664][FINER]:    Done waiting for all views to stop loading
+[23.666][FINER]:    Waiting for all views to stop loading...
+[23.667][FINER]:    Done waiting for all views to stop loading
+[23.667][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/title) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "Home page - Magento Commerce Demo Store"
+}
+
+[23.709][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element) with params {
+   "using": "id",
+   "value": "search"
+}
+
+[23.709][FINER]:    Waiting for all views to stop loading...
+[23.709][FINER]:    Done waiting for all views to stop loading
+[23.734][FINER]:    Waiting for all views to stop loading...
+[23.734][FINER]:    Done waiting for all views to stop loading
+[23.734][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222664683"
+   }
+}
+
+[23.754][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222664683/value) with params {
+   "id": ":wdc:1350222664683",
+   "value": [ "sony" ]
+}
+
+[23.754][FINER]:    Waiting for all views to stop loading...
+[23.755][FINER]:    Done waiting for all views to stop loading
+[23.917][FINER]:    Waiting for all views to stop loading...
+[23.917][FINER]:    Done waiting for all views to stop loading
+[23.917][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222664683/value) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[23.931][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element) with params {
+   "using": "css selector",
+   "value": "button.button"
+}
+
+[23.932][FINER]:    Waiting for all views to stop loading...
+[23.932][FINER]:    Done waiting for all views to stop loading
+[23.956][FINER]:    Waiting for all views to stop loading...
+[23.956][FINER]:    Done waiting for all views to stop loading
+[23.956][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222664684"
+   }
+}
+
+[23.968][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222664684/click) with params {
+   "id": ":wdc:1350222664684"
+}
+
+[23.968][FINER]:    Waiting for all views to stop loading...
+[23.968][FINER]:    Done waiting for all views to stop loading
+[24.022][WARNING]:  Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <span>...</span>
+[24.027][FINER]:    Waiting for all views to stop loading...
+[27.527][FINER]:    Done waiting for all views to stop loading
+[27.527][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222664684/click) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[27.544][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/elements) with params {
+   "using": "css selector",
+   "value": "ul.products-grid \u003E li"
+}
+
+[27.544][FINER]:    Waiting for all views to stop loading...
+[27.552][FINER]:    Done waiting for all views to stop loading
+[27.575][FINER]:    Waiting for all views to stop loading...
+[27.575][FINER]:    Done waiting for all views to stop loading
+[27.575][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/elements) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1350222668524"
+   }, {
+      "ELEMENT": ":wdc:1350222668525"
+   } ]
+}
+
+[27.591][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668524/element) with params {
+   "id": ":wdc:1350222668524",
+   "using": "css selector",
+   "value": "h2 \u003E a"
+}
+
+[27.591][FINER]:    Waiting for all views to stop loading...
+[27.592][FINER]:    Done waiting for all views to stop loading
+[27.616][FINER]:    Waiting for all views to stop loading...
+[27.616][FINER]:    Done waiting for all views to stop loading
+[27.616][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668524/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222668526"
+   }
+}
+
+[27.645][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668526/text)
+[27.645][FINER]:    Waiting for all views to stop loading...
+[27.647][FINER]:    Done waiting for all views to stop loading
+[27.698][FINER]:    Waiting for all views to stop loading...
+[27.698][FINER]:    Done waiting for all views to stop loading
+[27.698][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668526/text) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "Sony Ericsson W810i"
+}
+
+[27.712][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668524/element) with params {
+   "id": ":wdc:1350222668524",
+   "using": "css selector",
+   "value": "h2 \u003E a"
+}
+
+[27.712][FINER]:    Waiting for all views to stop loading...
+[27.716][FINER]:    Done waiting for all views to stop loading
+[27.724][FINER]:    Waiting for all views to stop loading...
+[27.724][FINER]:    Done waiting for all views to stop loading
+[27.724][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668524/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222668526"
+   }
+}
+
+[27.747][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668526/text)
+[27.747][FINER]:    Waiting for all views to stop loading...
+[27.748][FINER]:    Done waiting for all views to stop loading
+[27.767][FINER]:    Waiting for all views to stop loading...
+[27.768][FINER]:    Done waiting for all views to stop loading
+[27.768][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668526/text) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "Sony Ericsson W810i"
+}
+
+[27.781][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668525/element) with params {
+   "id": ":wdc:1350222668525",
+   "using": "css selector",
+   "value": "h2 \u003E a"
+}
+
+[27.781][FINER]:    Waiting for all views to stop loading...
+[27.784][FINER]:    Done waiting for all views to stop loading
+[27.805][FINER]:    Waiting for all views to stop loading...
+[27.806][FINER]:    Done waiting for all views to stop loading
+[27.806][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668525/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222668527"
+   }
+}
+
+[27.821][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668527/text)
+[27.821][FINER]:    Waiting for all views to stop loading...
+[27.823][FINER]:    Done waiting for all views to stop loading
+[27.873][FINER]:    Waiting for all views to stop loading...
+[27.876][FINER]:    Done waiting for all views to stop loading
+[27.876][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668527/text) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "Sony VAIO 11.1\" Notebook PC"
+}
+
+[27.894][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668525/element) with params {
+   "id": ":wdc:1350222668525",
+   "using": "css selector",
+   "value": "h2 \u003E a"
+}
+
+[27.894][FINER]:    Waiting for all views to stop loading...
+[27.894][FINER]:    Done waiting for all views to stop loading
+[27.903][FINER]:    Waiting for all views to stop loading...
+[27.903][FINER]:    Done waiting for all views to stop loading
+[27.903][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668525/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222668527"
+   }
+}
+
+[27.921][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668527/text)
+[27.921][FINER]:    Waiting for all views to stop loading...
+[27.921][FINER]:    Done waiting for all views to stop loading
+[27.937][FINER]:    Waiting for all views to stop loading...
+[27.938][FINER]:    Done waiting for all views to stop loading
+[27.938][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668527/text) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "Sony VAIO 11.1\" Notebook PC"
+}
+
+[27.949][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/elements) with params {
+   "using": "css selector",
+   "value": "ul.products-grid \u003E li"
+}
+
+[27.949][FINER]:    Waiting for all views to stop loading...
+[27.949][FINER]:    Done waiting for all views to stop loading
+[27.957][FINER]:    Waiting for all views to stop loading...
+[27.958][FINER]:    Done waiting for all views to stop loading
+[27.958][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/elements) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": [ {
+      "ELEMENT": ":wdc:1350222668524"
+   }, {
+      "ELEMENT": ":wdc:1350222668525"
+   } ]
+}
+
+[27.977][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668524/element) with params {
+   "id": ":wdc:1350222668524",
+   "using": "css selector",
+   "value": "h2 \u003E a"
+}
+
+[27.977][FINER]:    Waiting for all views to stop loading...
+[27.977][FINER]:    Done waiting for all views to stop loading
+[27.985][FINER]:    Waiting for all views to stop loading...
+[27.985][FINER]:    Done waiting for all views to stop loading
+[27.985][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668524/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222668526"
+   }
+}
+
+[27.997][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668526/text)
+[27.997][FINER]:    Waiting for all views to stop loading...
+[27.997][FINER]:    Done waiting for all views to stop loading
+[28.014][FINER]:    Waiting for all views to stop loading...
+[28.014][FINER]:    Done waiting for all views to stop loading
+[28.014][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668526/text) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "Sony Ericsson W810i"
+}
+
+[28.026][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668524/element) with params {
+   "id": ":wdc:1350222668524",
+   "using": "css selector",
+   "value": "h2 \u003E a"
+}
+
+[28.026][FINER]:    Waiting for all views to stop loading...
+[28.026][FINER]:    Done waiting for all views to stop loading
+[28.033][FINER]:    Waiting for all views to stop loading...
+[28.034][FINER]:    Done waiting for all views to stop loading
+[28.035][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668524/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222668526"
+   }
+}
+
+[28.047][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668526/text)
+[28.047][FINER]:    Waiting for all views to stop loading...
+[28.047][FINER]:    Done waiting for all views to stop loading
+[28.064][FINER]:    Waiting for all views to stop loading...
+[28.064][FINER]:    Done waiting for all views to stop loading
+[28.064][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668526/text) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "Sony Ericsson W810i"
+}
+
+[28.076][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668525/element) with params {
+   "id": ":wdc:1350222668525",
+   "using": "css selector",
+   "value": "h2 \u003E a"
+}
+
+[28.077][FINER]:    Waiting for all views to stop loading...
+[28.078][FINER]:    Done waiting for all views to stop loading
+[28.085][FINER]:    Waiting for all views to stop loading...
+[28.086][FINER]:    Done waiting for all views to stop loading
+[28.086][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668525/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222668527"
+   }
+}
+
+[28.098][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668527/text)
+[28.098][FINER]:    Waiting for all views to stop loading...
+[28.098][FINER]:    Done waiting for all views to stop loading
+[28.115][FINER]:    Waiting for all views to stop loading...
+[28.115][FINER]:    Done waiting for all views to stop loading
+[28.115][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668527/text) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "Sony VAIO 11.1\" Notebook PC"
+}
+
+[28.128][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668525/element) with params {
+   "id": ":wdc:1350222668525",
+   "using": "css selector",
+   "value": "h2 \u003E a"
+}
+
+[28.128][FINER]:    Waiting for all views to stop loading...
+[28.129][FINER]:    Done waiting for all views to stop loading
+[28.136][FINER]:    Waiting for all views to stop loading...
+[28.136][FINER]:    Done waiting for all views to stop loading
+[28.136][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668525/element) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1350222668527"
+   }
+}
+
+[28.153][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668527/text)
+[28.153][FINER]:    Waiting for all views to stop loading...
+[28.153][FINER]:    Done waiting for all views to stop loading
+[28.170][FINER]:    Waiting for all views to stop loading...
+[28.170][FINER]:    Done waiting for all views to stop loading
+[28.170][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/element/:wdc:1350222668527/text) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": "Sony VAIO 11.1\" Notebook PC"
+}
+
+[28.184][FINE]:     Command received (/session/8ab47c115b9458d05d8aaee892639bc5/window)
+[28.185][FINE]:     Command finished (/session/8ab47c115b9458d05d8aaee892639bc5/window) with response {
+   "sessionId": "8ab47c115b9458d05d8aaee892639bc5",
+   "status": 0,
+   "value": {
+
+   }
+}
+
