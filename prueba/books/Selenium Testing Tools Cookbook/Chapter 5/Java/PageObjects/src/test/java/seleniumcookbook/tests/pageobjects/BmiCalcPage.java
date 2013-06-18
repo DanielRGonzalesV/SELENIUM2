@@ -19,6 +19,8 @@ public class BmiCalcPage extends LoadableComponent<BmiCalcPage> {
 	private String title = "BMI Calculator";
 	
 	public BmiCalcPage() {
+		System.setProperty("webdriver.chrome.driver","C:\\descargas\\chromedriver_antiguo.exe");
+
 		driver = new ChromeDriver();
 		PageFactory.initElements(driver, this);
 	}
