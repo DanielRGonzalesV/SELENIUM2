@@ -19,7 +19,7 @@ import static org.junit.Assert.*;
 import java.awt.*;
 import java.util.Arrays;
 
-public class GoogleSearchTest {
+public class GoogleSearchTest_firefox {
 
 	private WebDriver driver;
 	private StringBuffer verificationErrors = new StringBuffer();
