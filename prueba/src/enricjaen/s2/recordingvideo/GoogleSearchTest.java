@@ -2,6 +2,7 @@ package enricjaen.s2.recordingvideo;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,6 +17,7 @@ import static org.monte.media.VideoFormatKeys.*;
 import org.junit.*;
 import static org.junit.Assert.*;
 import java.awt.*;
+import java.util.Arrays;
 
 public class GoogleSearchTest {
 
@@ -51,9 +53,16 @@ public class GoogleSearchTest {
 				null);
 
 
-
-		driver = new FirefoxDriver();
-		//screenRecorder.start();
+		FirefoxProfile profile = new FirefoxProfile();
+		profile.setPreference("network.proxy.type", 1);
+		profile.setPreference("network.proxy.http", "rproxy1.caib.es");
+		profile.setPreference("network.proxy.http_port", 3128);
+		
+		System.setProperty("webdriver.firefox.bin","C:\\Archivos de programa\\Mozilla Firefox 11\\firefox.exe");
+		driver = new FirefoxDriver(profile);
+	
+		
+		screenRecorder.start();
 
   }
 	
@@ -71,7 +80,7 @@ public class GoogleSearchTest {
 				}
 			});
 			
-			assertEquals("cheese! - Google Search", driver.getTitle());
+			assertEquals("cheese! - Cerca amb Google", driver.getTitle());
 		} catch (Exception e) {
 			verificationErrors.append(e.toString());
 		}
@@ -80,11 +89,13 @@ public class GoogleSearchTest {
 	@After 
 	public void tearDown() throws Exception {
 		driver.quit();
-		//screenRecorder.stop();
+		screenRecorder.stop();
 		String verifStr = verificationErrors.toString();
 		if(!"".equals(verifStr)) {
 			fail(verifStr);
 		}
+		System.out.println(Arrays.toString(screenRecorder.getCreatedMovieFiles().toArray()));
+		 
 	}
 }
 
