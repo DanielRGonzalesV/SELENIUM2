@@ -19,7 +19,7 @@ import static org.junit.Assert.*;
 import java.awt.*;
 import java.util.Arrays;
 
-public class GoogleSearchTest {
+public class GoogleSearchTest_ie {
 
 	private WebDriver driver;
 	private StringBuffer verificationErrors = new StringBuffer();
@@ -52,15 +52,9 @@ public class GoogleSearchTest {
 						   
 				null);
 
-
-		FirefoxProfile profile = new FirefoxProfile();
-		profile.setPreference("network.proxy.type", 1);
-		profile.setPreference("network.proxy.http", "rproxy1.caib.es");
-		profile.setPreference("network.proxy.http_port", 3128);
 		
-		System.setProperty("webdriver.firefox.bin","C:\\Archivos de programa\\Mozilla Firefox 11\\firefox.exe");
-		driver = new FirefoxDriver(profile);
-	
+		System.setProperty("webdriver.ie.driver","C:\\descargas\\IEDriverServer.exe");
+		driver = new InternetExplorerDriver();
 		
 		screenRecorder.start();
 
